@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="anastasia.cntr@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>df16aaee-7bc0-4764-8a46-05990f32b606</external-id>
+        </credentials>
+        <profile>
+            <first-name>Anastasia</first-name>
+            <last-name>Cantoreanu</last-name>
+            <email>anastasia.cntr@gmail.com</email>
+        </profile>
+    </user>
+
+    <user login="volodymyr.lysenko@osf-commerce.com" enabled-flag="true">
+        <credentials>
+            <external-id>8b092a0f-90aa-43c5-808c-0ae37e41da59</external-id>
+        </credentials>
+        <profile>
+            <first-name>Volodymyr</first-name>
+            <last-name>Lysenko</last-name>
+            <email>volodymyr.lysenko@osf-commerce.com</email>
+        </profile>
+    </user>
+
+</users>
