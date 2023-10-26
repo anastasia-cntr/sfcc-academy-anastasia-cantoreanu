@@ -6143,53 +6143,24 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </folder-links>
     </content>
 
-    <content content-id="footer-about">
-        <display-name xml:lang="x-default">Footer About Links</display-name>
-        <display-name xml:lang="fr-FR">Liens À propos en pied de page</display-name>
-        <display-name xml:lang="it-IT">Link Informazioni su a piè di pagina </display-name>
-        <display-name xml:lang="ja-JP">フッターの企業情報リンク</display-name>
-        <display-name xml:lang="zh-CN">页脚关于链接</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>false</searchable-flag>
-        <page-attributes/>
-        <custom-attributes>
-            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-about"&gt;About&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;About&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Go to About Us"&gt;About Us&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Go to Privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Go to Terms"&gt;Terms&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;À propos&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;À propos&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Aller à À propos de nous"&gt;À propos de nous&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Aller à Déclaration de confidentialité"&gt;Confidentialité&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Aller à Conditions générales"&gt;Conditions générales&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Aller à Carrières"&gt;Carrières&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Informazioni su&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Informazioni su&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Vai a Chi siamo"&gt;Chi siamo&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Vai a Privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Vai a Termini"&gt;Termini&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Vai a Lavora con noi"&gt;Lavora con noi&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="ja-JP">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;企業情報&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;企業情報&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="「Salesforce について」に移動する"&gt;Salesforce について&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="「プライバシー」に移動する"&gt;プライバシー&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="「利用条件」に移動する"&gt;利用条件&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="「採用情報」に移動する"&gt;採用情報&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
-            <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;关于&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;关于&lt;/h2&gt;&lt;/div&gt;&#13;
-                &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="前往关于我们"&gt;关于我们&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="前往隐私"&gt;隐私政策&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="前往条款"&gt;条款&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="前往招聘"&gt;招聘&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
-        </custom-attributes>
-    </content>
+     <content content-id="footer-about">
+    <display-name xml:lang="x-default">Footer About Links</display-name>
+    <display-name xml:lang="zh-CN">页脚关于链接</display-name>
+    <display-name xml:lang="fr-FR">Liens À propos en pied de page</display-name>
+    <display-name xml:lang="it-IT">Link Informazioni su a piè di pagina </display-name>
+    <display-name xml:lang="ja-JP">フッターの企業情報リンク</display-name>
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&lt;button aria-controls=&quot;collapsible-about&quot; aria-expanded=&quot;false&quot; class=&quot;title btn text-left btn-block d-sm-none&quot;&gt;About&lt;/button&gt;&#13;&lt;h2 class=&quot;title d-none d-sm-block&quot;&gt;About&lt;/h2&gt;&#13;&lt;/div&gt;&#13;&lt;ul class=&quot;menu-footer content&quot; id=&quot;collapsible-about&quot;&gt;&#13;	&lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'about-us')$&quot; title=&quot;Go to About Us&quot;&gt;About Us&lt;/a&gt;&amp;nbsp;&lt;strong&gt;FOUND IT&lt;/strong&gt;&lt;/li&gt;&#13;	&lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'privacy-policy')$&quot; title=&quot;Go to Privacy&quot;&gt;Privacy&lt;/a&gt;&amp;nbsp;&lt;strong&gt;FOUND IT&lt;/strong&gt;&lt;/li&gt;&#13;	&lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'terms')$&quot; title=&quot;Go to Terms&quot;&gt;Terms&lt;/a&gt;&amp;nbsp;&lt;strong&gt;FOUND IT&lt;/strong&gt;&lt;/li&gt;&#13;	&lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'jobs-landing')$&quot; title=&quot;Go to Jobs&quot;&gt;Jobs&lt;/a&gt;&amp;nbsp;&lt;strong&gt;FOUND IT&lt;/strong&gt;&lt;/li&gt;&#13;&lt;/ul&gt;&#13;&lt;!-- END: footer_about --&gt;</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="zh-CN">&lt;div&gt;&lt;button class=&quot;title btn text-left btn-block d-sm-none&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapsible-customer-service&quot;&gt;关于&lt;/button&gt;&lt;h2 class=&quot;title d-none d-sm-block&quot;&gt;关于&lt;/h2&gt;&lt;/div&gt;&#13;                &lt;ul id=&quot;collapsible-about&quot;class=&quot;menu-footer content&quot;&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'about-us')$&quot; title=&quot;前往关于我们&quot;&gt;关于我们&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'privacy-policy')$&quot; title=&quot;前往隐私&quot;&gt;隐私政策&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'terms')$&quot; title=&quot;前往条款&quot;&gt;条款&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'jobs-landing')$&quot; title=&quot;前往招聘&quot;&gt;招聘&lt;/a&gt;&lt;/li&gt;&#13;                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class=&quot;title btn text-left btn-block d-sm-none&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapsible-customer-service&quot;&gt;À propos&lt;/button&gt;&lt;h2 class=&quot;title d-none d-sm-block&quot;&gt;À propos&lt;/h2&gt;&lt;/div&gt;&#13;                &lt;ul id=&quot;collapsible-about&quot;class=&quot;menu-footer content&quot;&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'about-us')$&quot; title=&quot;Aller à À propos de nous&quot;&gt;À propos de nous&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'privacy-policy')$&quot; title=&quot;Aller à Déclaration de confidentialité&quot;&gt;Confidentialité&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'terms')$&quot; title=&quot;Aller à Conditions générales&quot;&gt;Conditions générales&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'jobs-landing')$&quot; title=&quot;Aller à Carrières&quot;&gt;Carrières&lt;/a&gt;&lt;/li&gt;&#13;                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;div&gt;&lt;button class=&quot;title btn text-left btn-block d-sm-none&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapsible-customer-service&quot;&gt;Informazioni su&lt;/button&gt;&lt;h2 class=&quot;title d-none d-sm-block&quot;&gt;Informazioni su&lt;/h2&gt;&lt;/div&gt;&#13;                &lt;ul id=&quot;collapsible-about&quot;class=&quot;menu-footer content&quot;&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'about-us')$&quot; title=&quot;Vai a Chi siamo&quot;&gt;Chi siamo&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'privacy-policy')$&quot; title=&quot;Vai a Privacy&quot;&gt;Privacy&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'terms')$&quot; title=&quot;Vai a Termini&quot;&gt;Termini&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'jobs-landing')$&quot; title=&quot;Vai a Lavora con noi&quot;&gt;Lavora con noi&lt;/a&gt;&lt;/li&gt;&#13;                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="ja-JP">&lt;div&gt;&lt;button class=&quot;title btn text-left btn-block d-sm-none&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapsible-customer-service&quot;&gt;企業情報&lt;/button&gt;&lt;h2 class=&quot;title d-none d-sm-block&quot;&gt;企業情報&lt;/h2&gt;&lt;/div&gt;&#13;                &lt;ul id=&quot;collapsible-about&quot;class=&quot;menu-footer content&quot;&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'about-us')$&quot; title=&quot;「Salesforce について」に移動する&quot;&gt;Salesforce について&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'privacy-policy')$&quot; title=&quot;「プライバシー」に移動する&quot;&gt;プライバシー&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'terms')$&quot; title=&quot;「利用条件」に移動する&quot;&gt;利用条件&lt;/a&gt;&lt;/li&gt;&#13;                &lt;li&gt;&lt;a href=&quot;$url('Page-Show', 'cid', 'jobs-landing')$&quot; title=&quot;「採用情報」に移動する&quot;&gt;採用情報&lt;/a&gt;&lt;/li&gt;&#13;                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+    </custom-attributes>
+    <folder-links>
+    </folder-links>
+  </content>
 
     <content content-id="footer-account">
         <display-name xml:lang="x-default">Footer Account Links</display-name>
