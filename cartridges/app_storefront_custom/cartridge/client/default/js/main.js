@@ -7,6 +7,8 @@ $(document).ready(function () {
     processInclude(require('./components/test'));
 });
 
+/* Function commented out to test css only functionality
+
 $(document).ready(function() {
     $("#couponCodeAnchor").click(function() {
         if (clicked == 0) {
@@ -18,3 +20,5 @@ $(document).ready(function() {
         }
     });
 });
+
+*/

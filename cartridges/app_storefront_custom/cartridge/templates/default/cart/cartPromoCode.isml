@@ -6,11 +6,10 @@
 
 <div class="row">
     <div class="col-12">
-        <p>
-            <a href="#" id="couponCodeAnchor">${Resource.msg('label.click.here.coupon.code','cart',null)}</a>
-        </p>
-        <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
-            <div class="form-group hidden">
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><a href="#" id="couponCodeAnchor">${Resource.msg('label.click.here.coupon.code','cart',null)}</a></label>
+        <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form hidden" method="GET" name="promo-code-form">
+            <div class="form-group">
                 <label for="couponCode">${Resource.msg('label.promo.code','cart',null)}</label>
                 <div class="row">
                     <div class="col-7">
