@@ -2,6 +2,12 @@
 <isset name="myAsset" value="${dw.content.ContentMgr.getContent('picturesque-view')}" scope="page"/>
 <iscontentasset aid="${dw.content.ContentMgr.getContent('picturesque-view')}" var="myAsset"/>
 <div class="content-asset">
-    <h1 class="content-asset-title">${myAsset.name}</h1>
-    <img class="content-asset-image" src="${myAsset.custom.Desktop_Banner_Image.url}" alt="${myAsset.name}" title="${myAsset.name}"/>
+<iscomment> Check if the content asset exists and if it has a desktop banner image and a name. </iscomment>
+    <isif condition="${myAsset != null && myAsset.custom.Desktop_Banner_Image.url != null && myAsset.name != null}">
+        <h1 class="content-asset-title">${myAsset.name}</h1>
+        <img class="content-asset-image" src="${myAsset.custom.Desktop_Banner_Image.url}" alt="${myAsset.name}" title="${myAsset.name}"/>
+        <iselse>
+            <h1 class="no-content-asset">No Content Asset Found</h1>
+        </iselse>
+    </isif>
 </div>
