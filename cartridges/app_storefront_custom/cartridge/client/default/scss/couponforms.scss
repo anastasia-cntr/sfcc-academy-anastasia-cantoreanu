@@ -1,0 +1,7 @@
+.promo-code-form.hidden {
+    display: none;
+}
+
+#toggle:checked ~ .promo-code-form {
+    display: block;
+}
