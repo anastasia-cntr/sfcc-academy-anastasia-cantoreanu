@@ -1,0 +1,16 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+<isdecorate template="common/layout/page">
+    <h1 id="your-benefits-section-h1">${Resource.msg('footer.your.benefits.section.h1','footerSection', null)}</h1>
+    <h3 id="your-benefits-section-h3">${Resource.msg('footer.your.benefits.section.h2','footerSection', null)}</h3>
+    <div class="content-asset-footer-section">
+        <isif condition="${pdict.myAsset.ID != null}">
+            <iscontentasset aid="${pdict.myAsset.ID}"/>
+            <iscontentasset aid="${pdict.myAsset.ID}"/>
+            <iscontentasset aid="${pdict.myAsset.ID}"/>
+            <iscontentasset aid="${pdict.myAsset.ID}"/>
+            <iselse>
+                <h1 class="no-content-asset">No Content Asset Found</h1>
+            </iselse>
+        </isif>
+    </div>
+</isdecorate>

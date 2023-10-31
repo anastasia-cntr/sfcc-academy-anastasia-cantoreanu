@@ -6386,6 +6386,31 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="footer-your-benefits-section">
+        <display-name xml:lang="x-default">Footer Your Benefits Section</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1 class="content-asset-title" style="text-align: center;"&gt;&amp;nbsp;&lt;/h1&gt;&#13;
+&#13;
+&lt;div class="content-asset-container"&gt;&#13;
+&lt;h3&gt;&lt;strong&gt;Where does it come from?&lt;/strong&gt;&lt;/h3&gt;&#13;
+&#13;
+&lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/p&gt;&#13;
+&#13;
+&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="free-shipping-over-50">
+        <display-name xml:lang="x-default">Free shipping over US$ 50</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+    </content>
+
     <content content-id="gift-additional-details">
         <display-name xml:lang="x-default">Gift Certificate Additonal Details</display-name>
         <display-name xml:lang="fr-FR">Autres informations sur les chèques-cadeaux</display-name>
