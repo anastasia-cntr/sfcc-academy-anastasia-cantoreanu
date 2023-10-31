@@ -1,7 +1,7 @@
 <isinclude template="/components/modules" sf-toolkit="off" />
 <isdecorate template="common/layout/page">
-    <h1>Footer Your Benefits Section</h1>
-    <h3>Where does it come from?</h3>
+    <h1 id="your-benefits-section-h1">${Resource.msg('footer.your.benefits.section.h1','footerSection', null)}</h1>
+    <h3 id="your-benefits-section-h3">${Resource.msg('footer.your.benefits.section.h2','footerSection', null)}</h3>
     <div class="content-asset-footer-section">
         <isif condition="${pdict.myAsset.ID != null}">
             <iscontentasset aid="${pdict.myAsset.ID}"/>
