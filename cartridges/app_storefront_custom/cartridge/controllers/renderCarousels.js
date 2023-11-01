@@ -7,4 +7,5 @@ server.get("ShowCarousels", function(req, res, next) {
     res.render("renderCarousels", { carousel1: carousel1, carousel2: carousel2 });
     return next();
 });
+
 module.exports = server.exports();

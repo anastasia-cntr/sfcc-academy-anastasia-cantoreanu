@@ -2,14 +2,14 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <isdecorate template="common/layout/page">
-<div class="content-asset-carousels-sync">
-        <isif condition="${pdict.carousel1.ID != null && pdict.carousel2.ID != null}">
-                <iscontentasset aid="${pdict.carousel1.ID}"/>
-                <iscontentasset aid="${pdict.carousel2.ID}"/>
-        <iselse>
-                <h1 class="no-content-asset">${Resource.msg('error.no.content.asset.found', 'errorCA', null}</h1>
-        </iselse>
-        </isif>
-</div>
+        <div class="content-asset-carousels-sync">
+                <isif condition="${pdict.carousel1.ID != null && pdict.carousel2.ID != null}">
+                        <iscontentasset aid="${pdict.carousel1.ID}"/>
+                        <iscontentasset aid="${pdict.carousel2.ID}"/>
+                <iselse>
+                        <h1 class="no-content-asset">${Resource.msg('error.no.content.asset.found', 'errorCA', null}</h1>
+                </iselse>
+                </isif>
+        </div>
 </isdecorate>
 
