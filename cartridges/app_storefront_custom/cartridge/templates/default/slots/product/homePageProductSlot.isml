@@ -1,0 +1,19 @@
+<isinclude template="/components/modules" />
+
+<div class="homepage-product-listing row">
+<iscomment> Checking if the slot content is not null </iscomment>
+    <isif condition="${slotcontent != null}">
+        <isloop items="${slotcontent.content}" var="product" status="loopState">
+            <div class="col-6 col-sm-4">
+                <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', true, 'swatches', true)}"/>
+            </div>
+        <iscomment> <isif condition="${loopState.count == 1}" >
+            <div class="card col-6 col-sm-4 hp-product-content">
+                <div class="card-body">
+                    <iscontentasset aid="home-product-tile-content" />
+                </div>
+            </div>
+        </isif> </iscomment>
+        </isloop>
+    </isif>
+</div>

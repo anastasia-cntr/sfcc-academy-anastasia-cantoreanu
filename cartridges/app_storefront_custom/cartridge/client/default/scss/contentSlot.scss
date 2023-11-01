@@ -1,0 +1,31 @@
+.homepage-product-listing.row {
+    width: 80%;
+    margin: auto;
+}
+
+.slick-slide > div > .col-6 {
+    //  The use of !important is necessary to override the slick function getting triggered at breakpoints, stylizing my elements back to default each time
+    display: block !important;
+    margin: auto;
+}
+
+.slick-slide .tile-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slick-slide .ratings.col-xs-12.col-sm-6,
+.slick-slide .tile-body-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slide .tile-body-footer {
+    margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
