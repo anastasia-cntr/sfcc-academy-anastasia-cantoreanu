@@ -1704,6 +1704,42 @@ La pagina non è più disponibile: (Pagina o file non trovati: errore 404). Prov
         <page-attributes/>
     </content>
 
+    <content content-id="SFRA-carousel1">
+        <display-name xml:lang="x-default">Carousel nr.1</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="first-carousel"&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="302" src="360_F_1084832_YEFGHnfY4JoqDjb7Mstl81OuIJpLMs.jpg?$staticlink$" title="" width="454" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="333" src="OYIaJ1KK_400x400.png?$staticlink$" title="" width="333" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="330" src="Super-Mario-Bros.-Wonder-Review-Featured-Games.webp?$staticlink$" title="" width="330" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="329" src="channels4_profile.jpg?$staticlink$" title="" width="329" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="324" src="iced-vietenames-coffee-img-5006-500x500.jpg?$staticlink$" title="" width="324" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="329" src="fresh-orange-fruit-500x500.webp?$staticlink$" title="" width="329" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="331" src="images.jpg?$staticlink$" title="" width="331" /&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="SFRA-carousel2">
+        <display-name xml:lang="x-default">Carousel nr.2</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="second-carousel"&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="302" src="360_F_1084832_YEFGHnfY4JoqDjb7Mstl81OuIJpLMs.jpg?$staticlink$" title="" width="454" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="333" src="OYIaJ1KK_400x400.png?$staticlink$" title="" width="333" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="330" src="Super-Mario-Bros.-Wonder-Review-Featured-Games.webp?$staticlink$" title="" width="330" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="329" src="channels4_profile.jpg?$staticlink$" title="" width="329" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="324" src="iced-vietenames-coffee-img-5006-500x500.jpg?$staticlink$" title="" width="324" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="329" src="fresh-orange-fruit-500x500.webp?$staticlink$" title="" width="329" /&gt;&lt;/div&gt;&#13;
+&lt;div&gt;&lt;img alt="" height="331" src="images.jpg?$staticlink$" title="" width="331" /&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="a6e5cde39b16c65d969f312e0d">
         <display-name xml:lang="x-default">Popular Category Component</display-name>
         <type>component.commerce_assets.popularCategory</type>
