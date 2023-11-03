@@ -1,0 +1,20 @@
+<div class="modular-template-display-message">
+    <isif condition="${contextModularTemplate === 'homepage'}">
+        <p id="modular-template-message">${Resource.msg('message.for.homepage.modular.template','modularTemplate', null)}</p>
+        <button id="modular-template-button">
+            <a href="https://zzrb-055.dx.commercecloud.salesforce.com/on/demandware.store/Sites-RefArch-Site/en_US/Login-Show">${Resource.msg('anchor.text.for.homepage.modular.template','modularTemplate', null)}</a>
+        </button>
+    <iselseif condition="${contextModularTemplate === 'category'}">
+        <p id="modular-template-message">${Resource.msg('message.for.categories.modular.template','modularTemplate', null)}</p>
+        <button id="modular-template-button">
+            <a href="https://zzrb-055.dx.commercecloud.salesforce.com/on/demandware.store/Sites-RefArch-Site">${Resource.msg('anchor.text.for.categories.modular.template','modularTemplate', null)}</a>
+        </button>
+    </iselseif>
+    <iselseif condition="${contextModularTemplate === 'product'}">
+        <p id="modular-template-message">${Resource.msg('message.for.products.modular.template','modularTemplate', null)}</p>
+        <button id="modular-template-button">
+            <a href="https://zzrb-055.dx.commercecloud.salesforce.com/on/demandware.store/Sites-RefArch-Site">${Resource.msg('anchor.text.for.products.modular.template','modularTemplate', null)}</a>
+        </button>
+    </iselseif>
+    </isif>
+</div>

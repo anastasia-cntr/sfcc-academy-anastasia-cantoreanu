@@ -1,0 +1,25 @@
+.modular-template-display-message {
+    background-color: var(--white);
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#modular-template-message {
+    font-size: 26px;
+}
+
+#modular-template-button {
+    background-color: var(--primary);
+    border: none;
+    padding: 0.5em;
+}
+
+#modular-template-button:hover {
+    background-color: #0186bb;
+}
+
+#modular-template-button a {
+    color: var(--white);
+    text-decoration: none;
+}
