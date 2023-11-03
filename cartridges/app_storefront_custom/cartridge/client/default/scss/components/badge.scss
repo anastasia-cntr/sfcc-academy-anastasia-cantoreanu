@@ -1,0 +1,25 @@
+.custom-badge #badge-background-color {
+    color: red;
+    background-color: red;
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    z-index: 1;
+    position: absolute;
+    top: -5%;
+    left: -2%;
+    text-align: center;
+}
+
+.custom-badge #badge-text-attribute {
+    color: white;
+    width: 6em;
+    height: 6em;
+    font-size: 0.6rem;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
