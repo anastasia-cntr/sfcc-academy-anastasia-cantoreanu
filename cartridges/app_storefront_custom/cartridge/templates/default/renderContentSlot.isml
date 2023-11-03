@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<isdecorate template="common/layout/page">
+    <div class="content-slot-container">
+        <isslot id="slot_product" description="Content slot type Product with 10 products" context="global"/>
+    </div>
+</isdecorate>
