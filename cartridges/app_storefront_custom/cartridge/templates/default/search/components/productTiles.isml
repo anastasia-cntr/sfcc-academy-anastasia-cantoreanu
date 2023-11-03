@@ -1,0 +1,19 @@
+<isloop items="${pdict.productSearch.productIds}" var="product">
+    <div class="col-6 col-sm-4">
+        <isif condition="${pdict.productSearch.productSearch.category.ID == 'womens-clothing-dresses' }">
+            <div class="custom-badge">
+                <isif condition="${pdict.productSearch.productSearch.category.custom.badgeBackgroundColor != null && pdict.productSearch.productSearch.category.custom.badgeTextAttribute != null}">
+                    <p id="badge-background-color">
+                    ${pdict.productSearch.productSearch.category.custom.badgeBackgroundColor}
+                    </p>
+                    <p id="badge-text-attribute">
+                    ${pdict.productSearch.productSearch.category.custom.badgeTextAttribute}
+                    </p>
+                </isif>
+            </div>
+        </isif>
+        <isobject object="${product.productSearchHit}" view="searchhit">
+            <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.productID, 'swatches', true, 'ratings', true)}" />
+        </isobject>
+    </div>
+</isloop>
